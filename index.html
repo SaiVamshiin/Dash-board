@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined"
+    rel="stylesheet"/>
+     <link rel="stylesheet" href="./index.css" />
+    <title>Dashboard</title>
+</head>
+<body>
+    <!----------------------------------------------Header Section-------------------------------------------------->
+    <header class="header">
+        <div class="top">
+            <div class="search">
+                <label for="search"><span class="material-icons-outlined search-icon">
+                    search
+                </span></label>
+                <input type="text" placeholder="search for projects" name="search" id="search">
+            </div>
+            <div class="account">
+                <button><span class="material-icons-outlined"> notifications_active </span></button>
+                <div class="profile-picture"></div>
+                <p class="name"> Sai Vamshi</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="profile">
+                <div class="profile-picture"></div>
+                <div class="profile-name">
+                    <p class="greeting">Hi People!</p>
+                    <p class="name">Sai Vamshi</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn">New</button>
+                <button class="btn">Upload</button>
+                <button class="btn">Share</button>
+            </div>
+        </div>
+    </header>
+
+     <!----------------------------Side Nav bar-----------------------------------------------> 
+     <aside class="sidebar">
+        <h1 class="sidebar-title">
+          <span class="material-icons"> dashboard </span>
+          Dashboard
+        </h1>
+        <ul class="nav">
+          <li class="nav-item current">
+            <a href="#" class="nav-link"
+              ><span class="material-icons"> home </span> Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> account_circle </span>
+              Profile</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> message </span> Messages</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> history </span> History</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> task </span> Tasks</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> groups </span>
+              Communities</a
+            >
+          </li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> settings </span> Settings</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> help_center </span>
+              Support</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><span class="material-icons-outlined"> verified_user </span>
+              Privacy</a
+            >
+          </li>
+        </ul>
+      </aside>
+  
+<!-------------------------------------------------- Main content ----------------------------------------------------------->
+      <main class="content">
+        <div class="projects">
+          <h3>My Projects</h3>
+          <div class="cards">
+            <div class="card">
+              <h5 class="card-title">Random Quote Machine</h5>
+              <p class="card-text">
+                A random quote machine created using React.js Hooks, 
+                styled-components, Font Awesome, mobile-first responsive design, and deployed 
+                on Codepen as one of five projects for the freeCodeCamp.
+              </p>
+              <div class="actions">
+               <span class=" material-icons-outlined" > star_border </span>
+                <a href="https://saivamshiin.github.io/Random-Quote-Machine/" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/SaiVamshiin/Random-Quote-Machine" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-title">Drum Machine</h5>
+              <p class="card-text">
+                A web application developed in Javascript, that implements a polyrhythmic drum machine,
+                 based on the Web Audio Api. It provides a physical based sound ...
+              </p>
+              <div class="actions">
+                <span class="material-icons-outlined"> star_border </span>
+                <a href="https://saivamshiin.github.io/Drum-Machine/" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/SaiVamshiin/Drum-Machine" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-title">Javascript Calculator </h5>
+              <p class="card-text">
+                A  Javascript calculator web design, which allows people to do math operations more easily.
+                For example, calculator will add, subtract, multiply, and divide.
+              </p>
+              <div class="actions">
+                <span class="material-icons-outlined"> star_border </span>
+                <a href="https://saivamshiin.github.io/javascript-calculator/" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/SaiVamshiin/javascript-calculator" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+  
+            <div class="card">
+              <h5 class="card-title">Sign-up Page</h5>
+              <p class="card-text">
+                A signup page is an important part of the user onboarding process. 
+                It is the first opportunity for the website or service to collect information
+                 about the user and to start building a relationship with them. 
+              </p>
+              <div class="actions">
+                <span class="material-icons-outlined"> star_border </span>
+                <a href="https://saivamshiin.github.io/Sign-up-website/" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="https://github.com/SaiVamshiin/Sign-up-website" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+  
+            <div class="card">
+              <h5 class="card-title">Product Landing Page</h5>
+              <p class="card-text">  A product landing page web page that is specifically 
+                designed to sell books, It is typically created for a specific books
+                with discount price, and it is optimized to convert visitors into customers.
+              </p>
+              <div class="actions">
+                <span class="material-icons-outlined"> star_border </span>
+                <a href="" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+            <div class="card">
+              <h5 class="card-title">Python Documentation Page</h5>
+              <p class="card-text">
+                The Python documentation page is a comprehensive resource for learning about the
+                 Python programming language. It includes a tutorial,reference documentation, and API documentation.
+              </p>
+              <div class="actions">
+                <span class="material-icons-outlined"> star_border </span>
+                <a href="" title="View Page"><span class="material-icons-outlined"> visibility </span></a>
+                <a href="" title="View Repositry"><span class="material-icons-outlined"> open_in_new </span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="announcements">
+          <h3>Announcements</h3>
+          <ul class="card">
+            <li class="announcement">
+              <h5 class="card-title">Site Maintenance</h5>
+              <p class="card-text">
+                Site maintenance is sheduled to improve website's performance. By optimizing  website's code and images make website faster and more responsive.
+                This can improve the user experience and can also help to improve website's search engine ranking.
+              </p>
+            </li>
+            <li class="announcement">
+              <h5 class="card-title">About me </h5>
+              <p class="card-text">
+                I have been learning web development for the past few years and have
+                 a good understanding of HTML, CSS, WordPress, JavaScript,and other web-development language
+              </p>
+            </li>
+            <li class="announcement">
+              <h5 class="card-title">Updated Privacy Policy</h5>
+              <p class="card-text">
+                We may update this Privacy Policy from time to time. You will be notified of any changes by email or by a prominent notice on our website.
+              </p>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="trending">
+          <h3>Trending Projects</h3>
+          <ul class="card">
+            <li class="trend trend-1">
+              <div class="picture"></div>
+              <div class="account">
+                <p class="username">Calculator</p>
+                <p class="name card-text">(javascript-calculator)</p>
+              </div>
+            </li>
+            <li class="trend trend-2">
+              <div class="picture"></div>
+              <div class="account">
+                <p class="username">Quotes</p>
+                <p class="name card-text">(Random-Quote-Machine)</p>
+              </div>
+            </li>
+            <li class="trend trend-3">
+              <div class="picture"></div>
+              <div class="account">
+                <p class="username">Drum</p>
+                <p class="name card-text">(Drum-Machine)</p>
+              </div>
+            </li>
+            <li class="trend trend-4">
+              <div class="picture"></div>
+              <div class="account">
+                <p class="username">Python</p>
+                <p class="name card-text">(Python-documentation-page)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+</body>
+</html>
